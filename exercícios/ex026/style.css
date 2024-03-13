@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(235, 235, 182);
+    margin:0px
+}
+h1#cabecalho{
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+div#pu{
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+header{
+    background-image:linear-gradient(to top, green, rgb(0, 0, 0)) ;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding:10px;
+    box-shadow: 10px;
+}
+a{
+    text-decoration: none;
+    color: rgb(131, 218, 0);
+    padding-right: 20px;
+    font-size: 20px;
+    padding: 20px;
+}
+a:hover{
+    background-color: greenyellow;
+    
+}
+main{
+    background-color: white;
+     padding:5px;
+    margin: auto;
+    width: 85%;
+    text-align: center;
+    box-shadow: 20px;
+    font-family:'Courier New', Courier, monospace;
+}
+.android{
+    background-color: greenyellow;
+}
