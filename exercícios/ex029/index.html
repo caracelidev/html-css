@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulário</h1>
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <fieldset>
+            <legend>Dados pessoais</legend>
+            
+            <label for="inome">Nome</label>
+            <input type="text" name="nome" id="inome" required minlength="5"><br>
+            <label for="isenha">Senha</label>
+            <input type="password" name="senha" id="isenha" required minlength="5"><br>
+            <label for="itime">Tempo</label>
+            <input type="time" id="itime">
+            <input type="submit" value="Enviar">
+            <br><label for="iemail">Email</label>
+            <input type="email" name="email" id="iemail" autocomplete="email" required>
+                   <br> <label for="itel">Telefone</label>
+            <input type="tel" name="tel" id="itel">
+        </fieldset>
+    </form>
+</body>
+</html>
